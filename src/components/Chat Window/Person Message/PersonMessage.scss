@@ -1,0 +1,51 @@
+.personMessage {
+    display: flex;
+
+    &--my {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    &--other {
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+.messageAvatar {
+    border-radius: 4px;
+}
+
+.personName {
+    font-family: Lato;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: left;
+    color: #201F1E;
+}
+
+.messageBody {
+    padding: 8px 12px 8px 12px;
+    gap: 12px;
+    border-radius: 4px;
+    opacity: 0px;
+    background-color: #F3F3F3;
+}
+
+.myMessageBody {
+    padding: 8px 12px 8px 12px;
+    gap: 12px;
+    border-radius: 4px;
+    opacity: 0px;
+    background-color: #407EC929;
+}
+
+.messageText {
+    font-family: Lato;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    color: #201F1E;
+}
